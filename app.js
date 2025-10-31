@@ -851,7 +851,7 @@ const categories = [...new Set(products.map(p=>p.category))];
 
 // ---------- Estado ----------
 let cart = JSON.parse(localStorage.getItem('tb_cart') || '[]');
-let activeCategory = 'Hamburguesas';
+let activeCategory = 'Shake Burger Combos';
 
 // ---------- DOM refs ----------
 const catalogEl = document.getElementById('catalog');
@@ -1464,3 +1464,4 @@ document.addEventListener("DOMContentLoaded", () => {
       .catch(() => alert("No se pudo copiar"));
   });
 });
+
